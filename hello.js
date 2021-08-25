@@ -3,16 +3,16 @@
 
 // console.log(nilai)
 
-// const hayo = (a) => {
-//     console.log(`Hello ${a}`)
-//     nilai(6)
-// }
+const sayHi = (a) => {
+    console.log(`Hello ${a}`)
+    nilai(6)
+}
 
-// const nilai = (b) => {
-//     console.log(`rizky ${b}`)
-// }
+const nilai = (b) => {
+    console.log(`rizky ${b}`)
+}
 
-// hayo(5)
+sayHi(5)
 
 // const b = [
 //     {nama: "rizky", kelas: "backend"},
@@ -42,9 +42,10 @@
 
 // cekPassword(12345);
 
-const Password = (pass) => {
-    if(pass == 12345) {console.log("Password Benar")}
-    else {console.log("Password Salah")}
-};
+// const Password = (pass) => {
+//     if(pass == 12345) {
+//     console.log("Password Benar")} 
+//     else {console.log("Password Salah")}
+// };
 
-Password(12345)
+// Password(12345)
